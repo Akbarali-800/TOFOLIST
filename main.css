@@ -1,0 +1,109 @@
+
+#user {
+    outline: none;
+    border: 2px solid rgba(108, 99, 255, 1);
+    border-radius: 6px;
+    width: 430px;
+    height: 30px;
+    padding-left: 30px;
+}
+
+#btn {
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    border: 2px solid rgba(108, 99, 255, 1);
+    background: none;
+    transition: .4s ease-in-out;
+}
+#btn:hover{
+    color: white;
+    background-color: rgba(108, 99, 255, 1);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.final_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h2{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.delete-btn {
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    border: 2px solid rgba(108, 99, 255, 1);
+    background: none;
+    transition: .4s ease-in-out;
+    margin-right: 10px;
+}
+
+.delete-btn:hover{
+    color: white;
+    background-color: rgba(108, 99, 255, 1);
+}
+.edit-btn{
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    border: 2px solid rgba(108, 99, 255, 1);
+    background: none;
+    transition: .4s ease-in-out;
+}
+
+.edit-btn:hover{
+    color: white;
+    background-color: rgba(108, 99, 255, 1);
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+/* Dark mode */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode button {
+    border-color: white;
+    color: white;
+}
+
+.dark-mode #user {
+    background-color: #333;
+    color: white;
+}
+
+#dark-mode-toggle {
+    background: none;
+    border: 2px solid rgba(108, 99, 255, 1);
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin-right: 10px;
+}
+
+#dark-mode-toggle:hover {
+    background-color: rgba(108, 99, 255, 1);
+    color: white;
+}
